@@ -1,0 +1,33 @@
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  padding: 3rem 1rem;
+
+  .card {
+    background: white;
+    border-radius: 10px;
+    width: 280px;
+    text-align: center;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+
+    img {
+      width: 100%;
+      border-radius: 8px;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    h3 {
+      color: #ff9100;
+      margin-top: 1rem;
+    }
+
+    &:hover {
+      transform: translateY(-5px);
+      transition: 0.3s ease;
+    }
+  }
+}
